@@ -6,9 +6,54 @@
 	<link rel="stylesheet" href="index.css">
 	<script src = "navi.js"></script>
 	<title>WELCOME TO JOHNNY WORLD</title>
+	<style type="text/css">
+		.navi_menu{
+			list-style: none;
+			text-align: center;
+			margin-top: 60px;==
+			\
+		}
+		.navi_menu li{
+			display: inline;
+			margin : 20px;
+		}
+		.navi_menu li a:link{
+			color : white;
+			text-decoration : none
+		}
+		.navi_menu li a:visited{
+			color : white;
+			text-decoration : none
+		}
+		.navi_menu li a:hover{
+			color : pink;
+			text-decoration : none
+		}
+		.navi_menu li a:active{
+			color : pink;
+			text-decoration : none
+		}
+		.navi_menu li a:focus{
+			color : pink;
+			text-decoration : none
+		}
+		#x{
+			color:white;
+		}
+		.navigator{
+			position:fixed;
+			background-color: white;
+			color: #111010;
+			height:50px;
+			margin-bottom: 0px;
+			padding-top: 20px;
+			text-align: center;
+			width : 100%;
+		}
+	</style>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$("#menu").click(function(){
+			$(".menu").click(function(){
 				$(".navi_menu").slideDown();
 				$(".navigator").css("background-color", "#111010");
 				$(".navigator").css("height", "200px");
@@ -16,7 +61,7 @@
 				$("#menu").hide();
 				$("#name").hide();
 			});
-			$("#x").click(function(){
+			$(".x").click(function(){
 				$(".navi_menu").hide();
 				$("#menu").show();
 				$("#name").show();
@@ -26,14 +71,13 @@
 				$("#menu").css("color", "#111010");
 			});
 		});
-
 	</script>
 </head>
 <body>
 	<h1>기대하소</h1>
 	<nav class = "navigator">
-		<span id="menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></span>
-		<span id="x" style = "display : none"><i class="fa fa-times fa-lg"></i></span>
+		<span class="menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></span>
+		<span class="x" style = "display : none"><i class="fa fa-times fa-lg"></i></span>
 		<ul class = "navi_menu" style = "display : none">
 			<li ><a href="">PROFILE</a></li>
 			<li ><a href="">SCHEDULE</a></li>
