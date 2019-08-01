@@ -6,6 +6,30 @@
 	<link rel="stylesheet" href="index.css">
 	<script src = "navi.js"></script>
 	<title>WELCOME TO JOHNNY WORLD</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#menu").click(function(){
+				$(".navi_menu").slideDown();
+				$(".navigator").css("background-color", "#111010");
+				$(".navigator").css("height", "200px");
+				$("#x").slideDown();
+				$("#menu").hide();
+				$("#name").hide();
+				return false;
+			});
+			$("#x").click(function(){
+				$(".navi_menu").hide();
+				$("#menu").show();
+				$("#name").show();
+				$("#x").hide();
+				$(".navigator").css("background-color", "white");
+				$(".navigator").css("height", "50px");
+				$("#menu").css("color", "#111010");
+				return false;
+			});
+		});
+
+	</script>
 </head>
 <body>
 	<h1>기대하소</h1>
@@ -20,6 +44,6 @@
 		</ul>
 	</nav>
 	<hr>
-	<img src="my.jpg">
+	<img id="preview" src="my.jpg">
 </body>
 </html>
