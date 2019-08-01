@@ -1,0 +1,43 @@
+.navi_menu{
+  list-style: none;
+  text-align: center;
+  margin-top: 60px;==
+  \
+}
+.navi_menu li{
+  display: inline;
+  margin : 20px;
+}
+.navi_menu li a:link{
+  color : white;
+  text-decoration : none
+}
+.navi_menu li a:visited{
+  color : white;
+  text-decoration : none
+}
+.navi_menu li a:hover{
+  color : pink;
+  text-decoration : none
+}
+.navi_menu li a:active{
+  color : pink;
+  text-decoration : none
+}
+.navi_menu li a:focus{
+  color : pink;
+  text-decoration : none
+}
+#x{
+  color:white;
+}
+.navigator{
+  position:fixed;
+  background-color: white;
+  color: #111010;
+  height:50px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-align: center;
+  width : 100%;
+}
