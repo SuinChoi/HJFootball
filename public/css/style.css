@@ -4,7 +4,7 @@
 body{
  width: 100%;
 }
-.naviwrap{
+.naviwrap, .wrap{
   text-align: center;
 }
 .slideshow-container{
@@ -104,7 +104,6 @@ footer{
 }
 .home_content{
   width: 1080px;
-  margin-left: 0;
   display: inline;
 }
 .home_content #home_name{
