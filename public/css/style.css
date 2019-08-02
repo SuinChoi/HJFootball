@@ -5,7 +5,7 @@ body{
  width: 100%;
 }
 .navi_menu{
-  width: 950px
+  width: 950px;
   display: inline;
   list-style: none;
   padding-right: 70px;
@@ -47,7 +47,6 @@ body{
   width: 130px;
   text-align: center;
   font-family: 'Playfair Display', serif;
-  font-style: bold;
   font-size:25px;
   display: inline;
 }
