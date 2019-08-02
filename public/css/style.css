@@ -19,23 +19,23 @@ body{
 }
 .navi_menu li a:link{
   color : black;
-  text-decoration : none
+  text-decoration : none;
 }
 .navi_menu li a:visited{
   color : black;
-  text-decoration : none
+  text-decoration : none;
 }
 .navi_menu li a:hover{
   color : orange;
-  text-decoration : none
+  text-decoration : none;
 }
 .navi_menu li a:active{
   color : orange;
-  text-decoration : none
+  text-decoration : none;
 }
 .navi_menu li a:focus{
   color : orange;
-  text-decoration : none
+  text-decoration : none;
 }
 .navigator{
   width: 1080px;
@@ -59,7 +59,7 @@ footer{
   height : 30px;
   width : 100%;
   background-color: white;
-  color : balck;
+  color : black;
   padding-left: 15px;
   padding-top: 2px;
   margin : auto;
@@ -68,7 +68,7 @@ footer{
   width: 1080px;
   margin : auto;
   height : 800px;
-  background-image:url('/img/my.jpg');
+  background-image:url('/img/jg2.jpg');
   text-align: center;
   background-repeat: no-repeat;
 }

@@ -1,4 +1,15 @@
 $(document).ready(function(){
+	function startWorker(){
+		if(typeof(Worker)!=="undefined"){
+			if(typeof(w)=="undefined"){
+				w = new Worker("webworker.js");
+			}
+			w.onmessage = function(event){
+				$(".home_content").css("background-image","url('img/jg2')");
+			}
+		}
+
+	}
     $("#menu").click(function(){
       $(".navi_menu").slideDown();
       $(".navigator").css("background-color", "#111010");
