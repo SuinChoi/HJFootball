@@ -10,6 +10,9 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
+app.get('/main', function(req, res){
+  res.sendFile(__dirname + '/index.html');
+});
 app.get('/player', function(req, res){
   res.sendFile(__dirname + '/player.html');
 });

@@ -110,7 +110,7 @@ footer{
   font-size: 60px;
   font-family: 'Lalezar', cursive;
   text-shadow: 1px 1px black;
-   display: inline;
+  display: inline;
 }
 .home_content #home_desc{
   color : orange;
