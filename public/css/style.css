@@ -56,7 +56,7 @@ footer{
 }
 
 .home_content{
-  background-image:url('img/main.png');
+  background-image:url('/img/main.png');
   text-align: center;
 }
 .home_content p{
