@@ -48,4 +48,9 @@
  font-size:25px;
  display: inline;
  margin-left: 5px;
+ color: orange;
+}
+.navigator #logo:visited{
+  color: orange;
+  text-decoration: none;
 }
