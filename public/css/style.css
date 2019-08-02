@@ -43,6 +43,7 @@ body{
   padding-top: 20px; 
    margin : auto;
   display: inline;
+  text-align: center;
 }
 .navigator p{
   font-family: 'Playfair Display', serif;
