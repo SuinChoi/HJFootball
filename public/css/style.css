@@ -67,10 +67,8 @@ footer{
 .home_content{
   width: 1080px;
   margin : auto;
-  height : 800px;
-  background-image:url('/img/jg2.jpg');
   text-align: center;
-  background-repeat: no-repeat;
+  display: inline;
 }
 .home_content #home_name{
   color : black;
