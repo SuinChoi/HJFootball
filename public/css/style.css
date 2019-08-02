@@ -102,8 +102,7 @@ footer{
 }
 .home_content{
   width: 1080px;
-  margin : auto;
-  text-align: center;
+  margin-left: 0;
   display: inline;
 }
 .home_content #home_name{
