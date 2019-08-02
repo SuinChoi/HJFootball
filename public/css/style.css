@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lalezar|Roboto&display=swap');
 body{
  width: 100%;
- text-align: center;
+}
+.naviwrap{
+  text-align: center;
 }
 .slideshow-container{
   height: 600px;
