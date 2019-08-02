@@ -2,7 +2,7 @@ body{
  width: 100%;
  text-align: center;
 }
-.empty{
+.empty, .empty2{
 	height: 250px;
 }
 .players{
