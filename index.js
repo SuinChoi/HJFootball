@@ -16,10 +16,10 @@ app.get('/main', function(req, res){
 app.get('/player', function(req, res){
   res.sendFile(__dirname + '/player.html');
 });
-app.get('/player/id=johny', function(req, res){
+app.get('/id=johny', function(req, res){
   res.sendFile(__dirname + '/player-jg.html');
 });
-app.get('/player/id=hyun', function(req, res){
+app.get('/id=hyun', function(req, res){
   res.sendFile(__dirname + '/player-hg.html');
 });
 server.listen(port, function(){
