@@ -49,6 +49,7 @@ body{
   padding-left: 150px;
   width: 40%
   font-size:25px;
+  display: inline;
 }
 footer{
   position: absolute;
@@ -61,6 +62,7 @@ footer{
   padding-top: 2px;
 }
 .home_content{
+  height : 800px;
   background-image:url('/img/my.jpg');
   text-align: center;
 }
@@ -74,10 +76,9 @@ footer{
 .home_content #home_desc{
   color : orange;
   text-align: center;
-  margin-top: 5px;
-  font-size: 30px;
+  margin-top: 0px;
+  font-size: 20px;
   font-family: 'Lalezar', cursive;
-  text-shadow: 1px 1px black;
 }
 .home_content hr{
   width : 600px;
