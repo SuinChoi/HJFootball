@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lalezar|Roboto&display=swap');
 body{
  height:1000px;
+ margin : auto;
 }
 .navi_menu{
   list-style: none;
   text-align: center;
   width: 60%;
   padding-right: 70px;
-  display: inline;
 }
 .navi_menu li{
   font-family: 'Roboto', sans-serif;
@@ -41,7 +41,7 @@ body{
   height:50px;
   margin : auto;
   padding-top: 20px; 
-   margin : auto;
+  margin : auto;
   display: inline;
   text-align: center;
 }
@@ -50,9 +50,8 @@ body{
   font-style: bold;
   padding-right: 50px;
   padding-left: 150px;
-  width: 40%
+  width: 40%;
   font-size:25px;
-  display: inline;
 }
 footer{
   bottom:0;
