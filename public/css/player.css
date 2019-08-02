@@ -2,13 +2,11 @@ body{
  width: 100%;
  text-align: center;
 }
-
-.player_contet{
-	background-image: url('img/player-back.jpg');
-	width: 100%;
-}
-
 .players{
 	background-color: white;
-	margin-top: 200px;
+	margin-top: 800px;
+}
+.players_pic img{
+	width: 250px;
+	height: 280px;
 }
