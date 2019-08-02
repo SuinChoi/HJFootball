@@ -8,12 +8,12 @@ body{
   list-style: none;
    text-align: center;
    width: 60%;
-   padding-left: 70px;
+   padding-right: 70px;
 }
 .navi_menu li{
   font-family: 'Roboto', sans-serif;
   display: inline;
-  margin : 20px;
+  margin-right : 20px;
 }
 .navi_menu li a:link{
   color : black;
