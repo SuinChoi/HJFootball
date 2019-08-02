@@ -6,10 +6,10 @@ body{
 }
 .navi_menu{
   list-style: none;
-   text-align: center;
-   width: 60%;
-   padding-right: 70px;
-    display: inline;
+  text-align: center;
+  width: 60%;
+  padding-right: 70px;
+  display: inline;
 }
 .navi_menu li{
   font-family: 'Roboto', sans-serif;
@@ -39,7 +39,7 @@ body{
 .navigator{
   background-color: white;
   height:50px;
-  margin-bottom: 0px;
+  margin : auto;
   padding-top: 20px; 
   width : 100%;
   display: inline;
@@ -61,6 +61,7 @@ footer{
   color : balck;
   padding-left: 15px;
   padding-top: 2px;
+  margin : auto;
 }
 .home_content{
   width: 1080px;
