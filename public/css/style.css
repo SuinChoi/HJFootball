@@ -21,15 +21,15 @@ body{
   text-decoration : none
 }
 .navi_menu li a:hover{
-  color : pink;
+  color : orange;
   text-decoration : none
 }
 .navi_menu li a:active{
-  color : pink;
+  color : orange;
   text-decoration : none
 }
 .navi_menu li a:focus{
-  color : pink;
+  color : orange;
   text-decoration : none
 }
 .navigator{
@@ -42,6 +42,7 @@ body{
 }
 .navigator p{
   font-family: 'Playfair Display', serif;
+  display: inline-block;
 }
 footer{
   position: absolute;
