@@ -4,10 +4,6 @@ body{
 	width: 100%;
 	text-align: center;
 }
-.empty{
-	width: 1080px;
-	margin: auto;
-}
 .players{
 	font-family: 'Roboto', sans-serif;
 	padding-top: 20px;
