@@ -2,9 +2,12 @@ body{
  width: 100%;
  text-align: center;
 }
+.empty{
+	height: 800px;
+}
 .players{
 	background-color: white;
-	margin-top: 800px;
+	position:fixed;
 }
 .players_pic img{
 	width: 250px;
