@@ -64,6 +64,7 @@ footer{
 }
 .home_content{
   width: 1080px;
+  margin : auto;
   height : 800px;
   background-image:url('/img/my.jpg');
   text-align: center;
