@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lalezar|Roboto&display=swap');
 body{
- 
+ height: 100%;
 }
 .navi_menu{
   list-style: none;
@@ -45,6 +45,7 @@ body{
 }
 .navigator p{
   font-family: 'Playfair Display', serif;
+  font-style: bold;
   padding-right: 50px;
   padding-left: 150px;
   width: 40%
@@ -62,13 +63,12 @@ footer{
   padding-top: 2px;
 }
 .home_content{
-  height : 800px;
+  height : 60%;
   background-image:url('/img/my.jpg');
   text-align: center;
 }
 .home_content #home_name{
   color : black;
-  margin-top: 70px;
   font-size: 70px;
   font-family: 'Lalezar', cursive;
   text-shadow: 1px 1px black;
