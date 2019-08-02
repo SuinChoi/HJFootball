@@ -9,6 +9,7 @@ body{
    text-align: center;
    width: 60%;
    padding-right: 70px;
+    display: inline;
 }
 .navi_menu li{
   font-family: 'Roboto', sans-serif;
@@ -62,6 +63,7 @@ footer{
   padding-top: 2px;
 }
 .home_content{
+  width: 1080px;
   height : 800px;
   background-image:url('/img/my.jpg');
   text-align: center;
@@ -69,7 +71,7 @@ footer{
 }
 .home_content #home_name{
   color : black;
-  font-size: 70px;
+  font-size: 60px;
   font-family: 'Lalezar', cursive;
   text-shadow: 1px 1px black;
 }
