@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lalezar|Roboto&display=swap');
 body{
  height:1000px;
- margin : auto;
 }
 .navi_menu{
   list-style: none;
@@ -41,7 +40,6 @@ body{
   height:50px;
   margin : auto;
   padding-top: 20px; 
-  margin : auto;
   display: inline;
   text-align: center;
 }
@@ -52,6 +50,7 @@ body{
   padding-left: 150px;
   width: 40%;
   font-size:25px;
+  display: inline;
 }
 footer{
   bottom:0;
