@@ -6,7 +6,7 @@ body{
  text-align: center;
 }
 .slideshow-container{
-  height: 800px;
+  height: 600px;
 }
 .mySlides {display: none;}
 .dot {
