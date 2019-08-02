@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
+body{
+   font-family: 'Jeju Gothic', serif;
+}
 .navi_menu{
   list-style: none;
   text-align: center;
@@ -40,6 +45,9 @@
   text-align: center;
   width : 100%;
 }
+.navigator p{
+  font-family: 'Playfair Display', serif;
+}
 footer{
   position: absolute;
   bottom:0;
@@ -56,8 +64,7 @@ footer{
 }
 
 .home_content{
-  height: 60%;
-  background-image:url('/img/main.png');
+  background-image:url('/img/my.png');
   text-align: center;
 }
 .home_content p{
@@ -66,7 +73,7 @@ footer{
   margin-top: 70px;
   padding-top: 160px;
   font-size: 70px;
-  font-family:avenir-lt-w01_85-heavy1475544,sans-serif;
+  font-family: 'Lalezar', cursive;
   text-shadow: 1px 1px black;
 }
 .home_content hr{
