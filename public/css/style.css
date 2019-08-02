@@ -45,7 +45,7 @@ body{
   display: inline;
   text-align: center;
 }
-.navigator p{
+.navigator #logo{
   width: 130px;
   text-align: center;
   font-family: 'Playfair Display', serif;
