@@ -8,6 +8,7 @@ body{
   list-style: none;
    text-align: center;
    width: 60%;
+   padding-left: 70px;
 }
 .navi_menu li{
   font-family: 'Roboto', sans-serif;
@@ -40,13 +41,14 @@ body{
   margin-bottom: 0px;
   padding-top: 20px; 
   width : 100%;
+  display: inline;
 }
 .navigator p{
   font-family: 'Playfair Display', serif;
-  display: inline;
-  margin-right: 50px;
-  margin-left: 150px;
+  padding-right: 50px;
+  padding-left: 150px;
   width: 40%
+  font-size:25px;
 }
 footer{
   position: absolute;
@@ -59,17 +61,12 @@ footer{
   padding-top: 2px;
 }
 .home_content{
-  background-image:url('/img/my.png');
+  background-image:url('/img/my.jpg');
   text-align: center;
 }
-.home_content p{
-  text-align: center;
-}
-
 .home_content #home_name{
   color : black;
   margin-top: 70px;
-  padding-top: 160px;
   font-size: 70px;
   font-family: 'Lalezar', cursive;
   text-shadow: 1px 1px black;
@@ -78,7 +75,6 @@ footer{
   color : orange;
   text-align: center;
   margin-top: 5px;
-  padding-top: 5px;
   font-size: 30px;
   font-family: 'Lalezar', cursive;
   text-shadow: 1px 1px black;
