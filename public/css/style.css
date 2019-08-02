@@ -37,7 +37,7 @@ body{
   text-decoration : none
 }
 .navigator{
-  background-color: white;
+  width: 1080px;
   height:50px;
   margin : auto;
   padding-top: 20px; 
