@@ -46,7 +46,7 @@ body{
   text-align: center;
 }
 .navigator #logo{
- list-style: none;
+ text-decoration : none;
  width: 130px;
  text-align: center;
  font-family: 'Playfair Display', serif;
