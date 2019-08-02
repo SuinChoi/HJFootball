@@ -1,17 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lalezar|Roboto&display=swap');
 body{
- width: 100%;
- text-align: center;
+	width: 100%;
+	text-align: center;
 }
 .empty, .empty2{
 	height: 250px;
 }
 .players{
+	font-family: 'Roboto', sans-serif;
 	padding-top: 20px;
 	height: 700px;
 	background-color: white;
-	position:fixed;
-	background-repeat: no-repeat;
-	width: 1080px;
+	width: 100%;
 	text-align: center;
 	margin: auto;
 }
