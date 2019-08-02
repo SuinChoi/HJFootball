@@ -19,3 +19,24 @@ body{
 	width: 250px;
 	height: 280px;
 }
+
+.player-detail-content{
+	text-align: center;
+	width: 100%;
+}
+
+.player-detail-content table{
+	text-align: center;
+	margin: auto;
+	table-layout: auto;
+}
+
+.title{
+	width: 100px;
+	background-color: #425a52;
+}
+
+.data{
+	width: 100px;
+	background-color: #aa2fd3;
+}
