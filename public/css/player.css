@@ -14,8 +14,9 @@ body{
 	margin: auto;
 }
 .players_pic img{
-	width: 180px;
-	height: 200px;
+	width: 130px;
+	height: 180px;
+	margin: 10px;
 }
 
 .player-detail-content{
