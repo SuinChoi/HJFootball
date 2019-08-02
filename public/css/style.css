@@ -1,6 +1,7 @@
 .navi_menu{
   list-style: none;
   text-align: center;
+  margin-top: 60px;
 }
 .navi_menu li{
   display: inline;
@@ -30,7 +31,6 @@
   color:white;
 }
 .navigator{
-  position:fixed;
   background-color: white;
   color: #111010;
   height:50px;
