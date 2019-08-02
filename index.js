@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res){
-   res.render('index');
+  res.sendFile(__dirname + '/index.html');
 });
 server.listen(port, function(){
   // when this server is opened 
