@@ -46,12 +46,13 @@ body{
   text-align: center;
 }
 .navigator #logo{
-  width: 130px;
-  text-align: center;
-  font-family: 'Playfair Display', serif;
-  font-size:25px;
-  display: inline;
-  margin-left: 5px;
+ list-style: none;
+ width: 130px;
+ text-align: center;
+ font-family: 'Playfair Display', serif;
+ font-size:25px;
+ display: inline;
+ margin-left: 5px;
 }
 footer{
   bottom:0;
