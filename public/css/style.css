@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lalezar|Roboto&display=swap');
 body{
  width: 100%;
+ text-align: center;
 }
-.naviwrap, .wrap{
-  text-align: center;
+.naviwrap{
+  
 }
 .slideshow-container{
   height: 600px;
@@ -104,6 +105,7 @@ footer{
 }
 .home_content{
   width: 1080px;
+  margin-left: 0;
   display: inline;
 }
 .home_content #home_name{
