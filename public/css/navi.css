@@ -9,6 +9,7 @@ body{
   margin: auto;
   font-family: 'Roboto', sans-serif;
   text-align: left;
+  margin-top: 5px;
 }
 .navi_menu{
   width: 950px;
