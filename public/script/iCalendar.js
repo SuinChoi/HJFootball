@@ -99,6 +99,76 @@
       	borderColor : 'white',
       	textColor:'black'
       },
+      {
+      	title: '인천 vs 성남',
+      	start: '2019-08-04',
+      	backgroundColor:'white',
+      	borderColor : 'white',
+      	textColor:'black'
+      },
+      {
+      	title: '경남 vs 성남',
+      	start: '2019-08-10',
+      	backgroundColor:'white',
+      	borderColor : 'white',
+      	textColor:'black'
+      },
+      {
+      	title: '성남 vs 서울',
+      	start: '2019-08-17',
+      	backgroundColor:'white',
+      	borderColor : 'white',
+      	textColor:'black'
+      },
+      {
+      	title: '전북 vs 성남',
+      	start: '2019-08-24',
+      	backgroundColor:'white',
+      	borderColor : 'white',
+      	textColor:'black'
+      },
+       {
+      	title: '포항 vs 성남',
+      	start: '2019-08-31',
+      	backgroundColor:'white',
+      	borderColor : 'white',
+      	textColor:'black'
+      },
+       {
+      	title: '성남 vs 수원',
+      	start: '2019-09-15',
+      	backgroundColor:'white',
+      	borderColor : 'white',
+      	textColor:'black'
+      },
+      {
+      	title: '제주 vs 성남',
+      	start: '2019-09-21',
+      	backgroundColor:'white',
+      	borderColor : 'white',
+      	textColor:'black'
+      },
+      {
+      	title: '성남 vs 강원',
+      	start: '2019-09-25',
+      	backgroundColor:'white',
+      	borderColor : 'white',
+      	textColor:'black'
+      },
+      {
+      	title: '울산 vs 성남',
+      	start: '2019-09-28',
+      	backgroundColor:'white',
+      	borderColor : 'white',
+      	textColor:'black'
+      },
+       {
+      	title: '성남 vs 대구',
+      	start: '2019-10-06',
+      	backgroundColor:'white',
+      	borderColor : 'white',
+      	textColor:'black'
+      }
       ]
 
   });

@@ -25,6 +25,12 @@ app.get('/id=hyun', function(req, res){
 app.get('/calendar', function(req, res){
   res.sendFile(__dirname + '/schedule.html');
 });
+app.get('/notice', function(req, res){
+  res.sendFile(__dirname + '/notice.html');
+});
+app.get('/contact', function(req, res){
+  res.sendFile(__dirname + '/contact.html');
+});
 server.listen(port, function(){
   // when this server is opened 
   console.log('listening on port ' + port);
