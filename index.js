@@ -22,6 +22,9 @@ app.get('/id=johny', function(req, res){
 app.get('/id=hyun', function(req, res){
   res.sendFile(__dirname + '/player-hg.html');
 });
+app.get('/calendar', function(req, res){
+  res.sendFile(__dirname + '/schedule.html');
+});
 server.listen(port, function(){
   // when this server is opened 
   console.log('listening on port ' + port);

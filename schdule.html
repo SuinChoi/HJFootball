@@ -6,9 +6,24 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/navi.css">
 	<link rel="stylesheet" href="css/schedule.css">
-	<link type="text/css" href="css/jquery.icalendar.css" rel="stylesheet">
 	<script src="script/script.js"> </script>
-	<script src="script/iCalendar.js"></script>
+	<script src="/script/iCalendar.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" />  
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>  
+	<script src="http://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>  
+
+	<link href='https://fullcalendar.io/releases/fullcalendar/3.9.0/fullcalendar.min.css' rel='stylesheet' />
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/
+	bootstrap.min.css'>
+	<link href='https://fullcalendar.io/releases/fullcalendar/3.9.0/fullcalendar.print.min.css' rel='stylesheet' media='print' />
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Scripts-->
+	<script src='https://fullcalendar.io/releases/fullcalendar/3.9.0/lib/moment.min.js'></script>
+	<script src='https://fullcalendar.io/releases/fullcalendar/3.9.0/lib/jquery.min.js'></script>
+	<script src='https://fullcalendar.io/releases/fullcalendar/3.9.0/fullcalendar.min.js'></script>
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min
+	.js'></script>
 	<title>HJ</title>
 </head>
 <body>
@@ -16,12 +31,12 @@
 		<a href="main" id="logo">[ HJ Football ]</a>
 		<ul class = "navi_menu">
 			<li ><a href="player">PLAYER</a></li>
-			<li ><a href="">SCHEDULE</a></li>
+			<li ><a href="calendar">SCHEDULE</a></li>
 			<li ><a href="">NOTICE</a></li>
 			<li ><a href="">CONTACT</a></li>
 		</ul>
 	</div>
 	<hr>
-	<div id="calendar"></div>
+	<div id="calendar" style="width: 980px;margin: auto;"></div>
 </body>
 </html>
