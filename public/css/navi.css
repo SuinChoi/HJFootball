@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lalezar|Roboto&display=swap');
+body{
+  width: 100%;
+  text-align: center;
+}
 .navi_menu{
   width: 950px;
   display: inline;
