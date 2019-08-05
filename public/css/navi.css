@@ -4,6 +4,10 @@ body{
   width: 100%;
   text-align: center;
 }
+footer{
+  width: 1080px;
+  margin: auto;
+}
 .navi_menu{
   width: 950px;
   display: inline;
