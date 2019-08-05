@@ -7,6 +7,8 @@ body{
 #footer{
   width: 1080px;
   margin: auto;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
 }
 .navi_menu{
   width: 950px;
