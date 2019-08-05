@@ -8,7 +8,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 	padding-top: 20px;
 	height: 700px;
-	background-color: #bbbbbb;
+	background-color: #dddddd;
 	width: 1080px;
 	text-align: center;
 	margin: auto;
@@ -16,26 +16,74 @@ body{
 .players_pic img{
 	width: 130px;
 	height: 180px;
-	margin: 10px;
+	margin: 20px;
 }
 
 .player-detail-content{
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	width: 100%;
 }
+caption { 
+  display: table-caption;
+  text-align:left;
+  font-weight: bold;
+}
 
-.player-detail-content table{
-	text-align: center;
+.player-detail-content .profile{
+	border-collapse: separate;
+	border-spacing: 1px;
+	text-align: left;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
 	margin: auto;
-	table-layout: auto;
+	margin-bottom: 10px; 
 }
 
-.title{
-	width: 100px;
-	background-color: #425a52;
+.player-detail-content .profile .title{
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #efefef;
+	
 }
 
-.data{
-	width: 100px;
-	background-color: #aa2fd3;
+.player-detail-content .profile .data{
+	width: 150px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+
+.player-detail-content .career{
+	border-collapse: separate;
+	border-spacing: 2px;
+	text-align: center;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	margin: auto;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+.player-detail-content .career .Topic{
+	text-align: center;
+	width:120px;
+	font-weight: bold;
+	vertical-align: top;
+	background: #efefef ;
+	height: 35px;
+	padding-top: 5px;
+	border-bottom: 5px solid #ccc;
+}
+
+.player-detail-content .career .data{
+	text-align: center;
+	width:220px;
+	padding: 20px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	height: 35px;
 }
