@@ -5,8 +5,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/navi.css">
-	<link rel="stylesheet" href="css/player.css">
+	<link rel="stylesheet" href="css/schedule.css">
+	<link type="text/css" href="css/jquery.icalendar.css" rel="stylesheet">
 	<script src="script/script.js"> </script>
+	<script src="script/iCalendar.js"></script>
 	<title>HJ</title>
 </head>
 <body>
@@ -20,19 +22,6 @@
 		</ul>
 	</div>
 	<hr>
-	<div class="player_contet">
-		<img src="img/soccer.jpg" style="width:1080px; margin: auto;">	
-		<div class="players">
-			<h3>PLAYERS</h3>
-			<div class="players_pic">
-				<a href="id=johny">
-				<img src="img/player-jg.jpg">
-				</a>
-				<a href="id=hyun">
-				<img src="img/player-hg.jpg">
-				</a>
-			</div>
-		</div>	
-	</div>
+	<div id="calendar"></div>
 </body>
 </html>
