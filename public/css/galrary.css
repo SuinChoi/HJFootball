@@ -1,5 +1,8 @@
 body {
 }
+.child-page-listing{
+  margin: auto;
+}
 img {
   width: 100%; /* need to overwrite inline dimensions */
   height: auto;

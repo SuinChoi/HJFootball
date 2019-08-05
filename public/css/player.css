@@ -11,6 +11,7 @@ body{
 	width: 1080px;
 	text-align: center;
 	margin: auto;
+	border: thin solid black;
 }
 .players_pic img{
 	width: 130px;
