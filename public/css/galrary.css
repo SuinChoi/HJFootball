@@ -33,12 +33,14 @@ h2 {
   transform: scale(1.1);
 }
 
-.location-title {
+.location-titlew {
   font-size: 1.5em;
   font-weight: bold;
   text-decoration: none;
   z-index: 1;
   position: absolute;
+  height:169px;
+  width: 300px;
   top: 0;
   left: 0;
   opacity: 0;
@@ -51,7 +53,26 @@ h2 {
   align-items: center;
   justify-content: center;
 }
-
+.location-titleh {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 300px;
+  width: 169px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(90,0,10,0.4);
+  color: white;
+  
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .location-listing:hover .location-title {
   opacity: 1;
 }
