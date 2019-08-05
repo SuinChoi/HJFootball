@@ -12,7 +12,7 @@ body{
 	width: 1080px;
 	text-align: center;
 	margin: auto;
-	border: thin solid black;
+	border: thin solid #e2e2e2;
 	background-color: #f3f3f3;
 }
 .players_pic img{
