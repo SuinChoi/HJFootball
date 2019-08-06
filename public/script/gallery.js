@@ -22,6 +22,7 @@ function openModal(img) {
 	console.log("temp " + temp);
 	var add ='<img id="Pic" src="' + temp + '">';
 	$('.mySlides').append(add);
+	console.log("a " + add);
 	document.getElementById("myModal").style.display = "block";
 }
 
