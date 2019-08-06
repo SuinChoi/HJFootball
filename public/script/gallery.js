@@ -23,7 +23,8 @@ function openModal(img) {
 	var add ='<img id="Pic" src="' + temp + '">';
 	$('.mySlides').append(add);
 	console.log("a " + add);
-	document.getElementById("myModal").style.display = "block";
+	$('#myModal').css("display","block");
+	console.log("b " +$('.mySlides').src);
 }
 
 	// Close the Modal
