@@ -20,7 +20,7 @@ $(document).ready(function(){
 function openModal(img) {
 	var temp = img.getAttribute('src');
 	console.log("temp " + temp);
-	document.getElementById("Pic").setAttribute('src') = temp;
+	document.getElementById("Pic").setAttribute('src',temp);
 	console.log(document.getElementById("Pic").src);
 	document.getElementById("myModal").style.display = "block";
 }
