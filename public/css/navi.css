@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lalezar|Roboto&display=swap');
 body{
   width: 100%;
@@ -61,7 +61,7 @@ body{
  display: inline;
  margin-left: 5px;
  color: orange;
- font-family: 'Playfair Display', serif;
+ font-family: 'Lato', sans-serif;
 }
 .navigator #logo:visited{
   color: orange;
