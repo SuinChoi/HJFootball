@@ -14,14 +14,14 @@ body{
 }
 .navi_menu{
   width: 950px;
-  display: inline;
+  display: inline-block;
   list-style: none;
   padding-right: 70px;
   margin-right: 15px;
 }
 .navi_menu li{
   font-family: 'Roboto', sans-serif;
-  display: inline;
+  display: inline-block;
   margin : 20px;
   padding-bottom: 10px;
 }
@@ -50,7 +50,7 @@ body{
   height:50px;
   margin : auto;
   padding-top: 20px; 
-  display: inline;
+  display: inline-block;
   text-align: center;
 }
 .navigator #logo{
@@ -59,7 +59,7 @@ body{
  text-align: center;
  font-family: 'Playfair Display', serif;
  font-size:25px;
- display: inline;
+ display: inline-block;
  margin-left: 5px;
  color: orange;
 }
