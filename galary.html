@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/navi.css">
 	<link rel="stylesheet" href="css/galrary.css">
 	<script src="script/script.js"> </script>
+	<script src="script/gallery.js"> </script>
 	<title></title>
 </head>
 <body>
@@ -16,121 +17,81 @@
 		<ul class = "navi_menu">
 			<li ><a href="player">PLAYER</a></li>
 			<li ><a href="calendar">SCHEDULE</a></li>
-			<li ><a href="galary">GALARY</a></li>
+			<li ><a href="galary">GALLERY</a></li>
 			<li ><a href="notice">NOTICE</a></li>
 			<li ><a href="contact">CONTACT</a></li>
 		</ul>
 	</div>
 	<hr>
-	<div class="child-page-listing" style="width: 1080px;">
-		<div class="grid-container">
-			<article id="3685" class="location-listing">
-				<a class="location-title" href="#">
-				                       </a>
+	<div class="row">
+		<div class="column">
+			<img src="img/jg5.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="img/hg2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="img/hgg2.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="img/jjg1.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+		</div>
+	</div>
 
-				<div class="location-image">
-					<a href="#">
-						<img width="300" height="169" src="img/jjg1.jpg" alt="san francisco" onclick="resizeImg2(this.src)">      </a>
+	<!-- The Modal/Lightbox -->
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
 
-					</div>
+			<div class="mySlides">
+				<div class="numbertext">1 / 4</div>
+				<img src="img1_wide.jpg" style="width:100%">
+			</div>
 
-				</article>
+			<div class="mySlides">
+				<div class="numbertext">2 / 4</div>
+				<img src="img2_wide.jpg" style="width:100%">
+			</div>
 
-				<article id="3688" class="location-listing">
+			<div class="mySlides">
+				<div class="numbertext">3 / 4</div>
+				<img src="img3_wide.jpg" style="width:100%">
+			</div>
 
-					<a class="location-title" href="#">
-					                     </a>
+			<div class="mySlides">
+				<div class="numbertext">4 / 4</div>
+				<img src="img4_wide.jpg" style="width:100%">
+			</div>
 
-					<div class="location-image">
-						<a href="#">
-							<img width="300" height="169" src="img/hg1.jpg" alt="london">    </a>
+			<!-- Next/previous controls -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-						</div>
+			<!-- Caption text -->
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
 
-					</article>
+			<!-- Thumbnail image controls -->
+			<div class="column">
+				<img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+			</div>
 
-					<article id="3691" class="location-listing">
+			<div class="column">
+				<img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+			</div>
 
-						<a class="location-title" href="#">
-						                      </a>
+			<div class="column">
+				<img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+			</div>
 
-						<div class="location-image">
-							<a href="#">
-								<img width="169" height="300" src="img/hgg1.jpg" alt="new york">    </a>
-
-							</div>
-
-						</article>
-
-						<article id="3694" class="location-listing">
-
-							<a class="location-title" href="#">
-							                      </a>
-
-							<div class="location-image">
-								<a href="#">
-									<img width="300" height="169" src="img/jg2.jpg" alt="cape town">  </a>
-
-								</div>
-
-							</article>
-
-							<article id="3697" class="location-listing">
-
-								<a class="location-title" href="#">
-								                     </a>
-
-								<div class="location-image">
-									<a href="#">
-										<img width="300" height="169" src="img/hg2.jpg" alt="beijing">      </a>
-
-									</div>
-
-								</article>
-
-								<article id="3700" class="location-listing">
-									<a class="location-title" href="#">
-									                      </a>
-									<div class="location-image">
-										<a href="#">
-											<img width="300" height="169" src="img/hg3.jpg" alt="paris">                  
-										</a>
-									</div>
-								</article>
-								<article id="3700" class="location-listing">
-									<a class="location-title" href="#">
-									                       </a>
-									<div class="location-image">
-										<a href="#">
-											<img width="169" height="300" src="img/hgg3.jpg" alt="paris">                  
-										</a>
-									</div>
-								</article>
-								<article id="3700" class="location-listing">
-									<a class="location-title" href="#">
-									                       </a>
-									<div class="location-image">
-										<a href="#">
-											<img width="300" height="169" src="img/hg8.jpg" alt="paris">                  
-										</a>
-									</div>
-								</article>
-								<article id="3700" class="location-listing">
-									<a class="location-title" href="#">
-									                       </a>
-									<div class="location-image">
-										<a href="#">
-											<img width="300" height="169" src="img/jjg2.jpg" alt="paris">                  
-										</a>
-									</div>
-								</article>
-
-							</div>
-							<!-- end grid container -->
-
-						</div>
-						<footer id="footer">
-							Copyright © 2018 Suin Choi All Rights Reserved.
-						</footer>
-					</body>
-					</html>
+			<div class="column">
+				<img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		Copyright © 2018 Suin Choi All Rights Reserved.
+	</footer>
+</body>
+</html>
