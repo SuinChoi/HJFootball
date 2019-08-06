@@ -31,7 +31,7 @@ app.get('/notice', function(req, res){
 app.get('/contact', function(req, res){
   res.sendFile(__dirname + '/contact.html');
 });
-app.get('/galary', function(req, res){
+app.get('/gallery', function(req, res){
   res.sendFile(__dirname + '/galary.html');
 });
 server.listen(port, function(){
