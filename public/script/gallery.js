@@ -2,8 +2,8 @@
 // Open the Modal
 function openModal(img) {
 	console.log(img.getAttribute('src'));
-	document.getElementById("Pic").src = img.src;
-	console.log(document.getElementById("Pic").src);
+	document.getElementById("Pic").setAttribute('src',img.getAttribute('src') )  ;
+	console.log(document.getElementById("Pic").getAttribute('src'));
 	document.getElementById("myModal").style.display = "block";
 }
 
