@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 			var text = '<div class="column">';
 			text += '<img src=';
-			text += '"public/' + array[i] + '" ';
+			text += '"' + array[i] + '" ';
 			text += 'onclick="openModal(this);" class="hover-shadow"></div>';
 			console.log(text);
 			$('.row').append(text);
