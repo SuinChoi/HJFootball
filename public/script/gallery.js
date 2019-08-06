@@ -2,12 +2,15 @@ $(document).ready(function(){
 	putPics();
 	function putPics(){	
 		console.log('starts');
-		var array = ["img/jg1.jpg", "img/hg2.jpg","img/hgg2.jpg","img/jjg1.jpg"];
+		var array = ["jg1", "hg2","hgg2",
+		"hg8","jjg1","hg3",
+		"jjg1", "hgg1","jg1",
+		"hg1" , "hg9","jjg3"];
 		for(var i=0; i<array.length; i++){
 
 			var text = '<div class="column">';
 			text += '<img src=';
-			text += '"' + array[i] + '" ';
+			text += '"img/' + array[i] + '.jpg" ';
 			text += 'onclick="openModal(this);" class="hover-shadow"></div>';
 			console.log(text);
 			$('.row').append(text);
@@ -17,12 +20,10 @@ $(document).ready(function(){
 	}	
 });
 // Open the Modal
-	function openModal(img) {
-		console.log(img);
-		console.log(img.getAttribute('src'));
-		document.getElementById("Pic").src = img.src;
-		document.getElementById("myModal").style.display = "block";
-	}
+function openModal(img) {
+	document.getElementById("Pic").src = img.getAttribute('src');
+	document.getElementById("myModal").style.display = "block";
+}
 
 	// Close the Modal
 	function closeModal() {
