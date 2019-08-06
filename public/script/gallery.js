@@ -14,8 +14,9 @@ $(document).ready(function(){
 
 		}
 		
-	}
-	// Open the Modal
+	}	
+});
+// Open the Modal
 	function openModal(img) {
 		document.getElementById("Pic").src = img.src;
 		document.getElementById("myModal").style.display = "block";
@@ -31,4 +32,3 @@ $(document).ready(function(){
 			document.getElementById("myModal").style.display = "none";
 		}
 	}
-});
