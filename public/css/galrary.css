@@ -32,7 +32,7 @@
   width: 100%;
   overflow: auto;
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
   margin: auto;
    text-align: center;
 }
@@ -44,6 +44,7 @@
   margin: auto;
   padding: 0;
   max-width: 1200px;
+  margin-bottom: 50px;
 }
 
 /* The Close Button */
