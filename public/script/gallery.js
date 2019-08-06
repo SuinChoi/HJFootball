@@ -1,7 +1,6 @@
 $(document).ready(function(){
 	putPics();
 	function putPics(){	
-		console.log('starts');
 		var array = ["jg1", "hg2","hgg2",
 		"hg8","jjg1","hg3",
 		"jjg1", "hgg1","jg1",
@@ -12,16 +11,16 @@ $(document).ready(function(){
 			text += '<img src=';
 			text += '"img/' + array[i] + '.jpg" ';
 			text += 'onclick="openModal(this);" class="hover-shadow"></div>';
-			console.log(text);
 			$('.row').append(text);
-
 		}
 		
 	}	
 });
 // Open the Modal
 function openModal(img) {
+	console.log(img.getAttribute('src'));
 	document.getElementById("Pic").src = img.getAttribute('src');
+	console.log(document.getElementById("Pic").src);
 	document.getElementById("myModal").style.display = "block";
 }
 
