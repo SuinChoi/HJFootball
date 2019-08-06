@@ -20,13 +20,14 @@ $(document).ready(function(){
 function openModal(img) {
 	var temp = img.getAttribute('src');
 	console.log("temp " + temp);
-	document.getElementById("Pic").setAttribute('src',temp);
-	console.log(document.getElementById("Pic").src);
+	var add ='<img id="Pic" src="' + temp + '">';
+	$('.mySlides').append(add);
 	document.getElementById("myModal").style.display = "block";
 }
 
 	// Close the Modal
 	function closeModal() {
+		//$('#Pic').
 		document.getElementById("myModal").style.display = "none";
 	}
 
