@@ -2,8 +2,8 @@
   padding: 0 8px;
   vertical-align: middle;
   display: inline-block;
-  margin: 7px;
-  width: 30%
+  margin: 10px;
+  width: 26.5%
 }
 .row{
   margin: auto;
@@ -29,7 +29,9 @@
   top: 0;
   height: 100%;
   overflow: auto;
-  background-color: black;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  margin: auto;
 }
 
 /* Modal Content */
