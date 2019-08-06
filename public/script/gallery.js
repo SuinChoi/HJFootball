@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 			var text = '<div class="column">';
 			text += '<img src=';
-			text += '"' + array[i] + '" ';
+			text += '"public/' + array[i] + '" ';
 			text += 'onclick="openModal(this);" class="hover-shadow"></div>';
 			console.log(text);
 			$('.row').append(text);
@@ -18,6 +18,8 @@ $(document).ready(function(){
 });
 // Open the Modal
 	function openModal(img) {
+		console.log(img);
+		console.log(img.src);
 		document.getElementById("Pic").src = img.src;
 		document.getElementById("myModal").style.display = "block";
 	}
@@ -27,8 +29,4 @@ $(document).ready(function(){
 		document.getElementById("myModal").style.display = "none";
 	}
 
-	window.onclick = function(event) {
-		if (event.target == modal) {
-			document.getElementById("myModal").style.display = "none";
-		}
-	}
+	
