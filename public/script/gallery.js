@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	putPics();
 	function putPics(){	
+		console.log('start');
 		var array = ["img/jg1.jpg", "img/hg2.jpg","img/hgg2.jpg","img/jjg1.jpg"];
 		for(var i=0; i<array.length; i++){
 
