@@ -24,7 +24,7 @@ function openModal(img) {
 	$('.mySlides').append(add);
 	console.log("a " + add);
 	$('#myModal').css("display","block");
-	console.log("b " +$('.mySlides').src);
+	console.log("b " +$('.mySlides').attr('src'));
 }
 
 	// Close the Modal
