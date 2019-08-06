@@ -61,7 +61,7 @@ body{
  display: inline;
  margin-left: 5px;
  color: orange;
- font-family: 'Playfair', sans-serif;
+ font-family: 'Playfair Display', serif;
 }
 .navigator #logo:visited{
   color: orange;
