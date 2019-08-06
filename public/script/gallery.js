@@ -18,8 +18,9 @@ $(document).ready(function(){
 });
 // Open the Modal
 function openModal(img) {
-	console.log(img.getAttribute('src'));
-	document.getElementById("Pic").src = img.getAttribute('src');
+	var temp = img.getAttribute('src');
+	console.log("temp " + temp);
+	document.getElementById("Pic").src = temp;
 	console.log(document.getElementById("Pic").src);
 	document.getElementById("myModal").style.display = "block";
 }
