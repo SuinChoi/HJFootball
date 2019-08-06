@@ -3,7 +3,6 @@
   vertical-align: middle;
   display: inline-block;
   margin: 7px;
-  width: 27%;
 }
 .row{
   margin: auto;
@@ -15,8 +14,8 @@
 }
 
 /* Create four equal columns that floats next to eachother */
-.column {
- 
+.column img {
+  width: 30%;
 }
 
 /* The Modal (background) */
