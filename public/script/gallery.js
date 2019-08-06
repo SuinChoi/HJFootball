@@ -1,13 +1,13 @@
 $(document).ready(function(){
 	putPics();
 	function putPics(){	
-		console.log('start');
+		console.log('starts');
 		var array = ["img/jg1.jpg", "img/hg2.jpg","img/hgg2.jpg","img/jjg1.jpg"];
 		for(var i=0; i<array.length; i++){
 
 			var text = '<div class="column">';
 			text += '<img src=';
-			text += array[i];
+			text += '"' + array[i] + '" ';
 			text += 'onclick="openModal(this);" class="hover-shadow"></div>';
 			console.log(text);
 			$('.row').append(text);
