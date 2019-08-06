@@ -25,6 +25,7 @@
   position: fixed;
   z-index: 1;
   padding-top: 100px;
+  padding-bottom: 50px;
   left: 0;
   top: 0;
   height: 100%;
@@ -32,6 +33,7 @@
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
   margin: auto;
+   text-align: center;
 }
 
 /* Modal Content */
