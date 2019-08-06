@@ -2,8 +2,11 @@
   padding: 0 8px;
   vertical-align: middle;
   display: inline-block;
+  margin: 7px;
 }
-
+.row{
+  margin: auto;
+}
 .row:after {
   content: "";
   display: table;
